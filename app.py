@@ -74,7 +74,7 @@ def save_chat_history(chat_history):
 
 def main():
     st.set_page_config("Chat PDF")
-    st.header("Lumos⚡")
+    st.header("Docu-Chat⚡")
 
     if "chat_history" not in st.session_state:
         st.session_state.chat_history = []
